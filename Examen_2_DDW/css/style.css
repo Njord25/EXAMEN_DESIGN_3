@@ -61,7 +61,7 @@ button:hover {
 .main-left {
   position: absolute;
   transform: translateX(-50%);
-  left: 50%; }
+  left: 49.5%; }
 
 .main-right {
   position: absolute;
@@ -164,6 +164,21 @@ button:hover {
   width: 70%; }
   .col-wide img {
     width: 100%; }
+
+.col-wide {
+-webkit-transition:all .9s ease; /* Safari y Chrome */
+-moz-transition:all .9s ease; /* Firefox */
+-o-transition:all .9s ease; /* IE 9 */
+-ms-transition:all .9s ease; /* Opera */
+width:70%;
+}
+.col-wide:hover {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
 
 .col-half {
   width: 50%;
